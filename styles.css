@@ -37,47 +37,42 @@
  background-color: #99DBCF; 
 }
 
-.images {
-  margin: auto;
-  width: 75%;
-  text-align: center;
-  align-content: center;
-  padding: 25px 25px 25px 25px;
-}
-
-.images img {
-  object-fit: contain;
-}
-
-.images p {
-  padding-bottom: 50px;
-}
-
-.images h1 {
-  padding-bottom: 75px;
-}
 
 .page {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
+  margin: auto;
+  width: 90%;
   justify-content: center;
   align-content: center;
+  text-align: center;
 }
 
-.recipe-title{
-  margin: auto;
-  text-align: center;
-  padding: 25px 25px 25px 25px;
+.photo-grid-container {
+  display: flex;
+  justify-content: center;
 }
+
+.photo-grid {
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+}
+
+.photo {
+  width: 300px;
+  height: 300px;
+}
+
 .recipe {
-  width: 75%;
+  width: 100%;
   text-align: left;
   align-content: left;
   padding: 25px 25px 25px 25px;
 }
 
-.title{
+title{
   margin: auto;
   text-align: center;
   padding: 25px 25px 25px 25px;
