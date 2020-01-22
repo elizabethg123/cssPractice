@@ -1,3 +1,105 @@
-body {
-	color: #FF0000;
+* {
+  font-family: "Trebuchet MS", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+	font-family: "Trebuchet MS", sans-serif;
+}
+
+.header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #E0E0E0;
+}
+
+.header li {
+  float: left;
+}
+
+.header li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.header a:hover {
+  background-color: #99DBCF;
+}
+
+#title {
+ background-color: #99DBCF; 
+}
+
+.images {
+  margin: auto;
+  width: 75%;
+  text-align: center;
+  align-content: center;
+  padding: 25px 25px 25px 25px;
+}
+
+.images img {
+  object-fit: contain;
+}
+
+.images p {
+  padding-bottom: 50px;
+}
+
+.images h1 {
+  padding-bottom: 75px;
+}
+
+.page {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.recipe-title{
+  margin: auto;
+  text-align: center;
+  padding: 25px 25px 25px 25px;
+}
+.recipe {
+  width: 75%;
+  text-align: left;
+  align-content: left;
+  padding: 25px 25px 25px 25px;
+}
+
+.title{
+  margin: auto;
+  text-align: center;
+  padding: 25px 25px 25px 25px;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: #F09A9D; /* Red */
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+    background-color: #F5CF8E; /* Yellow */
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  body {
+    background-color: #B2D6FF; /* Blue */
+  }
 }
